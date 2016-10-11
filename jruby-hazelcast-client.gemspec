@@ -17,8 +17,8 @@ Gem::Specification.new do |s|
   s.require_paths = %w( lib )
   s.rubyforge_project = "jruby-hazelcast-client"
   s.summary = "JRuby Hazelcast 3.7.2 client"
-  s.test_files = spec.files.grep(%r{^(test|spec|features)/})
-  s.executables = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
+  s.test_files = s.files.grep(%r{^(test|spec|features)/})
+  s.executables = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
   s.add_development_dependency 'bundler'
   s.add_development_dependency 'rake'
   s.add_development_dependency(%q<jeweler>, [">= 0"])

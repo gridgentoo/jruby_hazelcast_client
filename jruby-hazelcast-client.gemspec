@@ -20,6 +20,6 @@ Gem::Specification.new do |s|
   s.test_files = s.files.grep(%r{^(test|spec|features)/})
   s.executables = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
   s.add_development_dependency 'bundler', '~> 0'
-  s.add_development_dependency 'rake', '~> 0'
+  s.add_development_dependency 'rake', '~> 13'
   s.add_development_dependency 'jeweler', '~> 0'
 end
